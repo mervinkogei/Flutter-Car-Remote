@@ -14,10 +14,13 @@ class HomeScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(10),
         child: Column(
-
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+             const Spacer(),
+            Text('Car Lock Remote', style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),),
             const Spacer(),
+           
+            
             const Center(
               child: LockWidget()
             ),
