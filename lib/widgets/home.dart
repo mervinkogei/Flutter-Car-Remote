@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                ButtonWidget(icon:  CupertinoIcons.cloud,),
+                ButtonWidget(icon:  CupertinoIcons.antenna_radiowaves_left_right,),
                 ButtonWidget(icon:  CupertinoIcons.wind,),
                 ButtonWidget(icon:  CupertinoIcons.sun_max,)
               ],

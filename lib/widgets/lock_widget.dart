@@ -58,7 +58,7 @@ class LockWidget extends StatelessWidget {
                           end: Alignment.bottomRight,
                           colors:[
                             Colors.black,
-                            Colors.black54
+                            Colors.lime
 
                           ]
                       ),
@@ -156,7 +156,7 @@ class LockWidget extends StatelessWidget {
                           blurRadius: 1
                       ),
                       const  BoxShadow(
-                          color: Colors.black,
+                          color: Colors.lime,
                           offset: Offset(2, 2),
                           blurRadius: 2
                       )
